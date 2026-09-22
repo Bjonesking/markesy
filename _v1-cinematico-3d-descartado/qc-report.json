@@ -1,0 +1,52 @@
+{
+  "slug": "markesy",
+  "url": "http://127.0.0.1:54394",
+  "engine": "webgl",
+  "checks": {
+    "engineReady": true,
+    "webglAvailable": true,
+    "renderLoopActive": true,
+    "framesRendered": 34,
+    "pixelDeltaFirstLast": 86.29,
+    "pixelDeltaMaxAdjacent": 22.89,
+    "continuityAcrossScroll": true,
+    "reachedEnd": true
+  },
+  "samples": [
+    {
+      "frac": 0,
+      "progress": 0,
+      "avg": 110
+    },
+    {
+      "frac": 0.25,
+      "progress": 0.25,
+      "avg": 87
+    },
+    {
+      "frac": 0.5,
+      "progress": 0.5,
+      "avg": 67
+    },
+    {
+      "frac": 0.75,
+      "progress": 0.75,
+      "avg": 45
+    },
+    {
+      "frac": 1,
+      "progress": 1,
+      "avg": 23
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\Administrador\\OneDrive\\Desktop\\agentes - cloude\\.agents\\skills\\cinematic-3d-site-builder\\qc\\screenshots\\markesy-webgl-00-p0.png",
+    "C:\\Users\\Administrador\\OneDrive\\Desktop\\agentes - cloude\\.agents\\skills\\cinematic-3d-site-builder\\qc\\screenshots\\markesy-webgl-01-p25.png",
+    "C:\\Users\\Administrador\\OneDrive\\Desktop\\agentes - cloude\\.agents\\skills\\cinematic-3d-site-builder\\qc\\screenshots\\markesy-webgl-02-p50.png",
+    "C:\\Users\\Administrador\\OneDrive\\Desktop\\agentes - cloude\\.agents\\skills\\cinematic-3d-site-builder\\qc\\screenshots\\markesy-webgl-03-p75.png",
+    "C:\\Users\\Administrador\\OneDrive\\Desktop\\agentes - cloude\\.agents\\skills\\cinematic-3d-site-builder\\qc\\screenshots\\markesy-webgl-04-p100.png"
+  ],
+  "pass": true,
+  "errors": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,79 @@
+{
+  "brand": "Markésy",
+  "slug": "markesy",
+  "provider": "higgsfield",
+  "model": "seedance-2.0",
+  "activeProvider": "stub",
+  "stubbed": true,
+  "generatedRealAssets": false,
+  "heroImage": {
+    "prompt": "the silhouette of a figure slowly stretching upward and outward, released from tension, warm amber rim light cutting through deep navy darkness — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+    "stubbed": true,
+    "output": "assets/hero.svg"
+  },
+  "clips": [
+    {
+      "id": "hero",
+      "prompt": "a silhouette of a figure bound and tense slowly unfurling into an open stretch, warm amber light spreading across the navy darkness as the body opens up — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": true,
+      "startFrame": null,
+      "endFrame": null,
+      "resolution": "1080p",
+      "stubbed": true,
+      "note": "no HIGGSFIELD_API_KEY / FAL_KEY — clip replaced by procedural frames"
+    },
+    {
+      "id": "metodo",
+      "prompt": "hands performing gentle manual therapy along a spine, warm raking light from one side, camera dollying slowly along the treatment table — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": true,
+      "startFrame": null,
+      "endFrame": null,
+      "resolution": "1080p",
+      "stubbed": true,
+      "note": "no HIGGSFIELD_API_KEY / FAL_KEY — clip replaced by procedural frames"
+    },
+    {
+      "id": "equipe",
+      "prompt": "a figure walking forward with full, free stride out of shadow into warm amber light, motion trail dissolving behind — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": true,
+      "startFrame": null,
+      "endFrame": null,
+      "resolution": "1080p",
+      "stubbed": true,
+      "note": "no HIGGSFIELD_API_KEY / FAL_KEY — clip replaced by procedural frames"
+    }
+  ],
+  "frames": {
+    "count": 48,
+    "dir": "assets/frames",
+    "format": "svg",
+    "pattern": "frame-%03d.svg",
+    "stubbed": true
+  },
+  "missing": [
+    {
+      "what": "Higgsfield API key",
+      "env": "HIGGSFIELD_API_KEY",
+      "why": "authenticate Seedance 2.0 / Nano-Banana calls"
+    },
+    {
+      "what": "Higgsfield base URL (optional)",
+      "env": "HIGGSFIELD_BASE_URL",
+      "default": "https://api.higgsfield.ai/v1"
+    },
+    {
+      "what": "fal.ai key (fallback provider)",
+      "env": "FAL_KEY",
+      "why": "same Seedance 2.0 / Nano-Banana models via fal.ai when Higgsfield is absent"
+    },
+    {
+      "what": "Higgsfield credits",
+      "note": "Seedance 2.0 std/1080p/~8s clips are credit-metered (see the video)"
+    },
+    {
+      "what": "ffmpeg",
+      "check": "installed",
+      "note": "used to decode real clips → frame sequence for frameseq mode"
+    }
+  ]
+}

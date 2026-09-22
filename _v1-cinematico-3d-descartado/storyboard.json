@@ -1,0 +1,335 @@
+{
+  "brand": "Markésy",
+  "slug": "markesy",
+  "tagline": "O caminho de volta ao movimento sem dor.",
+  "subtitle": "Osteopatia & Fisioterapia em Macaé, RJ — tratamento individual, da avaliação à alta.",
+  "archetype": "reveal",
+  "templateId": "09",
+  "accent": "#E3A548",
+  "bg": "#0A1128",
+  "text": "#F2EFE6",
+  "camera": {
+    "path": "spline",
+    "axis": "z",
+    "lookAhead": 0.04,
+    "span": 150,
+    "radius": 0
+  },
+  "waypoints": [
+    {
+      "id": "hero",
+      "index": 0,
+      "p": 0,
+      "pos": [
+        0,
+        0,
+        0
+      ],
+      "fog": "#556b87",
+      "particle": {
+        "color": "#faf9f5",
+        "count": 1500,
+        "style": "dust"
+      },
+      "subject": "figure",
+      "light": {
+        "flood": false,
+        "vents": false,
+        "rim": false
+      }
+    },
+    {
+      "id": "diferencial",
+      "index": 1,
+      "p": 0.2,
+      "pos": [
+        4.702282018339785,
+        2.8531695488854605,
+        -30
+      ],
+      "fog": "#465974",
+      "particle": {
+        "color": "#f5e8d2",
+        "count": 1360,
+        "style": "dust"
+      },
+      "subject": null,
+      "light": {
+        "flood": false,
+        "vents": false,
+        "rim": false
+      }
+    },
+    {
+      "id": "metodo",
+      "index": 2,
+      "p": 0.4,
+      "pos": [
+        7.608452130361228,
+        1.7633557568774196,
+        -60
+      ],
+      "fog": "#374761",
+      "particle": {
+        "color": "#f1d7b0",
+        "count": 1220,
+        "style": "dust"
+      },
+      "subject": null,
+      "light": {
+        "flood": false,
+        "vents": false,
+        "rim": false
+      }
+    },
+    {
+      "id": "equipe",
+      "index": 3,
+      "p": 0.6,
+      "pos": [
+        7.608452130361229,
+        -1.7633557568774192,
+        -90
+      ],
+      "fog": "#28354e",
+      "particle": {
+        "color": "#ecc78d",
+        "count": 1080,
+        "style": "dust"
+      },
+      "subject": null,
+      "light": {
+        "flood": false,
+        "vents": false,
+        "rim": false
+      }
+    },
+    {
+      "id": "depoimentos",
+      "index": 4,
+      "p": 0.8,
+      "pos": [
+        4.702282018339786,
+        -2.853169548885461,
+        -120
+      ],
+      "fog": "#19233b",
+      "particle": {
+        "color": "#e8b66b",
+        "count": 940,
+        "style": "dust"
+      },
+      "subject": null,
+      "light": {
+        "flood": false,
+        "vents": false,
+        "rim": false
+      }
+    },
+    {
+      "id": "contato",
+      "index": 5,
+      "p": 1,
+      "pos": [
+        9.797174393178826e-16,
+        -7.347880794884119e-16,
+        -150
+      ],
+      "fog": "#0a1128",
+      "particle": {
+        "color": "#e3a548",
+        "count": 800,
+        "style": "dust"
+      },
+      "subject": null,
+      "light": {
+        "flood": false,
+        "vents": false,
+        "rim": false
+      }
+    }
+  ],
+  "hud": null,
+  "sections": [
+    {
+      "id": "hero",
+      "zone": "",
+      "kicker": "OSTEOPATIA & FISIOTERAPIA · MACAÉ",
+      "title": "O caminho de volta ao movimento sem dor.",
+      "body": "Você chega travado, com dor ou limitação. A gente escuta sua história inteira antes de tocar em você — e monta o tratamento a partir disso, não de um protocolo padrão.",
+      "carry": null,
+      "hudValue": null,
+      "start": 0
+    },
+    {
+      "id": "diferencial",
+      "zone": "",
+      "kicker": "NOSSO DIFERENCIAL",
+      "title": "Tratar a causa, não só o sintoma.",
+      "body": "Trabalhamos o corpo como um todo — terapia manual e osteopatia para reequilibrar o Sistema Nervoso Autônomo, que está por trás de dores crônicas, tensão e fadiga que nem sempre têm uma causa óbvia.",
+      "carry": null,
+      "hudValue": null,
+      "start": 0.2
+    },
+    {
+      "id": "metodo",
+      "zone": "",
+      "kicker": "COMO FUNCIONA",
+      "title": "Uma anamnese detalhada antes de qualquer decisão.",
+      "body": "O primeiro atendimento é uma conversa a fundo sobre seu histórico. Em alguns casos, usamos um exame de avaliação do Sistema Nervoso Autônomo para enxergar o que os exames de imagem não mostram — e daí, sim, definimos o caminho certo pra você.",
+      "carry": null,
+      "hudValue": null,
+      "start": 0.4
+    },
+    {
+      "id": "equipe",
+      "zone": "",
+      "kicker": "QUEM CUIDA DE VOCÊ",
+      "title": "Fisioterapeutas e osteopatas, um só objetivo.",
+      "body": "Aline Marchesi (Fisioterapia Integrativa) lidera a equipe ao lado de Diego Pilat (Fisioterapeuta traumato-ortopedista), Wellington Ligeiro e Fábio Kurpan (Osteopatia) — cada caso passa por quem entende exatamente da sua dor.",
+      "carry": null,
+      "hudValue": null,
+      "start": 0.6
+    },
+    {
+      "id": "depoimentos",
+      "zone": "",
+      "kicker": "QUEM JÁ PASSOU POR AQUI",
+      "title": "“Nunca mais fui a mesma.”",
+      "body": "Cristiane Rodrigues chegou debilitada após cirurgia na lombar e hoje segue para o fortalecimento muscular. Gisele de Araújo tratou uma bursite no ombro e hoje faz manutenção. Jheniffer Ribeiro fez o tratamento antes, durante e depois de uma cirurgia no fêmur — e recuperou os movimentos da perna.",
+      "carry": null,
+      "hudValue": null,
+      "start": 0.8
+    },
+    {
+      "id": "contato",
+      "zone": "",
+      "kicker": "PRÓXIMO PASSO",
+      "title": "Volte a se mover sem dor.",
+      "body": "Rua Bariloche, nº 24 — Cavaleiros, Macaé/RJ. (22) 3083-0089 · (22) 99278-1960 · @markesybr",
+      "carry": null,
+      "hudValue": null,
+      "start": 1
+    }
+  ],
+  "continuityMap": [
+    {
+      "from": "hero",
+      "to": "diferencial",
+      "carry": "shared camera path + color-grade cross-fade",
+      "camera": "spline segment 0→1",
+      "transition": "continuous camera + fog lerp (no cut)",
+      "fogFrom": "#556b87",
+      "fogTo": "#465974"
+    },
+    {
+      "from": "diferencial",
+      "to": "metodo",
+      "carry": "shared camera path + color-grade cross-fade",
+      "camera": "spline segment 1→2",
+      "transition": "continuous camera + fog lerp (no cut)",
+      "fogFrom": "#465974",
+      "fogTo": "#374761"
+    },
+    {
+      "from": "metodo",
+      "to": "equipe",
+      "carry": "shared camera path + color-grade cross-fade",
+      "camera": "spline segment 2→3",
+      "transition": "continuous camera + fog lerp (no cut)",
+      "fogFrom": "#374761",
+      "fogTo": "#28354e"
+    },
+    {
+      "from": "equipe",
+      "to": "depoimentos",
+      "carry": "shared camera path + color-grade cross-fade",
+      "camera": "spline segment 3→4",
+      "transition": "continuous camera + fog lerp (no cut)",
+      "fogFrom": "#28354e",
+      "fogTo": "#19233b"
+    },
+    {
+      "from": "depoimentos",
+      "to": "contato",
+      "carry": "shared camera path + color-grade cross-fade",
+      "camera": "spline segment 4→5",
+      "transition": "continuous camera + fog lerp (no cut)",
+      "fogFrom": "#19233b",
+      "fogTo": "#0a1128"
+    }
+  ],
+  "specs": [
+    [
+      "ESPECIALIDADE",
+      "Osteopatia & Fisioterapia"
+    ],
+    [
+      "AVALIAÇÃO",
+      "Anamnese + exame do SNA"
+    ],
+    [
+      "LOCALIZAÇÃO",
+      "Cavaleiros, Macaé/RJ"
+    ]
+  ],
+  "cta": {
+    "headline": "Volte a se mover sem dor.",
+    "button": "Agendar avaliação"
+  },
+  "lang": "pt-BR",
+  "ui": {
+    "scroll": "Rolar para baixo",
+    "specification": "Detalhes"
+  },
+  "shots": [
+    {
+      "id": "hero-image",
+      "kind": "image",
+      "prompt": "the silhouette of a figure slowly stretching upward and outward, released from tension, warm amber rim light cutting through deep navy darkness — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": false
+    },
+    {
+      "id": "hero",
+      "kind": "clip",
+      "prompt": "a silhouette of a figure bound and tense slowly unfurling into an open stretch, warm amber light spreading across the navy darkness as the body opens up — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": true,
+      "startFrame": null,
+      "endFrame": null
+    },
+    {
+      "id": "metodo",
+      "kind": "clip",
+      "prompt": "hands performing gentle manual therapy along a spine, warm raking light from one side, camera dollying slowly along the treatment table — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": true,
+      "startFrame": null,
+      "endFrame": null
+    },
+    {
+      "id": "equipe",
+      "kind": "clip",
+      "prompt": "a figure walking forward with full, free stride out of shadow into warm amber light, motion trail dissolving behind — ultra-detailed macro product cinematography, razor-sharp focus on machined micro-detail, shallow depth of field with creamy bokeh, subject suspended in a near-black void, fine dust motes drifting through the light, warm specular key light with soft falloff, accent glints of #E3A548, physically accurate materials, high dynamic range, subtle volumetric haze, gentle film grain, photorealistic, 8K sharpness, no text, no watermark",
+      "referenceHero": true,
+      "startFrame": null,
+      "endFrame": null
+    }
+  ],
+  "generation": {
+    "provider": "higgsfield",
+    "model": "seedance-2.0",
+    "mode": "std",
+    "resolution": "1080p",
+    "aspect": "16:9",
+    "durationSec": 8,
+    "chained": false
+  },
+  "engine": "webgl",
+  "frames": {
+    "count": 48,
+    "dir": "assets/frames",
+    "format": "svg",
+    "pattern": "frame-%03d.svg",
+    "stubbed": true
+  },
+  "heroImage": "assets/hero.svg"
+}
