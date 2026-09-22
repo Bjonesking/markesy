@@ -2,6 +2,10 @@
 # como histórico, mas nunca deve subir para produção.
 _v1-cinematico-3d-descartado/
 
-# Opção 3 é um app Next.js à parte, com deploy próprio (projeto Vercel
-# separado). O projeto estático da raiz não deve servir o código-fonte dela.
-opcao3/
+# NÃO ignorar opcao3/ aqui: esse .vercelignore é compartilhado por TODOS os
+# projetos Vercel que usam este repositório (o estático "markesy" e o Next.js
+# "opcao3", cada um com seu próprio Root Directory) — ignorar a pasta aqui
+# derrubou o build do projeto opcao3 (source removido antes do build rodar).
+# Consequência aceita: o projeto estático também serve o código-fonte cru de
+# opcao3/ como arquivo estático inerte (sem node_modules, sem .env, sem
+# segredo nenhum lá dentro) — feio, não perigoso.
