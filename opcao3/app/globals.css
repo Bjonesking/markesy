@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* ============================================================
+   MARKÉSY — OPÇÃO 3. Paleta real da marca (mesma das Opções
+   1 e 2): navy + âmbar + creme. Não é uma paleta nova inventada
+   pro "conceito equilíbrio e fluxo" — é a marca já aprovada.
+   ============================================================ */
+:root {
+  --navy: #0a1128;
+  --navy-soft: #16213f;
+  --navy-deep: #060a18;
+  --amber: #e3a548;
+  --amber-dark: #c98a2e;
+  --amber-soft: #f2d9a8;
+  --cream: #f7f3ea;
+  --white: #ffffff;
+  --ink: #171b26;
+  --ink-muted: #545b6b;
+  --border: #e4dfd3;
+
+  --background: var(--cream);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-navy-deep: var(--navy-deep);
+  --color-amber: var(--amber);
+  --color-amber-dark: var(--amber-dark);
+  --color-amber-soft: var(--amber-soft);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-border: var(--border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.font-mono-label {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+}
+
+::selection {
+  background: var(--amber);
+  color: var(--navy);
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 3px;
+}
+
+/* Reveal base usado pelo GSAP ScrollTrigger — some client component chama
+   .from(el, {opacity:0,y:...}) então isso é só o estado inicial pra não
+   "piscar" o conteúdo em opacity 1 antes do JS assumir. Sem JS (ou motion
+   reduzido), .no-js-fallback garante que o conteúdo continua visível. */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(28px);
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}

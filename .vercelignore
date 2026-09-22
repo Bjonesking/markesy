@@ -1,3 +1,7 @@
 # Build 1 (cinematográfico 3D) foi rejeitado pelo cliente — mantido no disco
 # como histórico, mas nunca deve subir para produção.
 _v1-cinematico-3d-descartado/
+
+# Opção 3 é um app Next.js à parte, com deploy próprio (projeto Vercel
+# separado). O projeto estático da raiz não deve servir o código-fonte dela.
+opcao3/
