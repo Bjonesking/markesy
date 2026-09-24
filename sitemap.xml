@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PROVISORIO: URLs usam o dominio real (markesy.com.br), mesmo padrao do canonical
+     do index.html. So passa a bater com o deploy ao vivo quando o dominio real
+     apontar para este site. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://markesy.com.br/</loc></url>
+  <url><loc>https://markesy.com.br/blog/</loc></url>
+  <url><loc>https://markesy.com.br/blog/o-que-e-osteopatia/</loc></url>
+  <url><loc>https://markesy.com.br/blog/osteopatia-ou-fisioterapia/</loc></url>
+  <url><loc>https://markesy.com.br/blog/dor-lombar-quando-procurar-ajuda/</loc></url>
+  <url><loc>https://markesy.com.br/blog/hernia-de-disco-tratamento-sem-cirurgia/</loc></url>
+  <url><loc>https://markesy.com.br/blog/habitos-postura-trabalho-sentado/</loc></url>
+  <url><loc>https://markesy.com.br/blog/recuperacao-pos-cirurgica-fisioterapia/</loc></url>
+</urlset>
